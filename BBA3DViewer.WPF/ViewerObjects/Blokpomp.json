@@ -1,0 +1,1605 @@
+{
+	"etimClass": {
+		"selected": true,
+		"code": "EC010732",
+		"version": 1
+	},
+	"modellingClass": {
+		"selected": true,
+		"code": "MC000046",
+		"version": 1
+	},
+	"features": [
+		{
+			"selected": true,
+			"code": "EF023038",
+			"alphaNumericValue": {
+				"code": "EV000117",
+				"description": "Gietijzer"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 1,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF022461",
+			"alphaNumericValue": {
+				"code": "EV000117",
+				"description": "Gietijzer"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 1,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023143",
+			"alphaNumericValue": {
+				"code": "EV020188",
+				"description": "Gietijzer GG 25 (GJL-250)"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 2,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF001257",
+			"alphaNumericValue": {
+				"code": "EV020188",
+				"description": "Gietijzer GG 25 (GJL-250)"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 2,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF011652",
+			"alphaNumericValue": {
+				"code": "EV000117",
+				"description": "Gietijzer"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 3,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007389",
+			"numericValue": 248.6,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 3,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF024149",
+			"alphaNumericValue": {
+				"code": "EV020187",
+				"description": "Gietijzer GG 20 (GJL-200)"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 4,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF022473",
+			"numericValue": 2413,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 4,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF014904",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 5,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023193",
+			"alphaNumericValue": {
+				"code": "EV020118",
+				"description": "DN 150"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 5,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF014905",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 6,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF000321",
+			"alphaNumericValue": {
+				"code": "EV000106",
+				"description": "Flens"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 6,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF000992",
+			"numericValue": 31.91,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 7,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020052",
+			"alphaNumericValue": {
+				"code": "EV020117",
+				"description": "DN 125"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 7,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF000991",
+			"numericValue": 320,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 8,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF000322",
+			"alphaNumericValue": {
+				"code": "EV000106",
+				"description": "Flens"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 8,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020449",
+			"numericValue": 16,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 9,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020007",
+			"alphaNumericValue": {
+				"code": "EV020104",
+				"description": "PN 16"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 9,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF001964",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 9,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF001422",
+			"alphaNumericValue": {
+				"code": "EV003671",
+				"description": "Elektrisch"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 10,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020149",
+			"alphaNumericValue": {
+				"code": "EV020104",
+				"description": "PN 16"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 10,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF003701",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 11,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF000536",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 12,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020233",
+			"alphaNumericValue": {
+				"code": "EV020204",
+				"description": "3 x 400 V"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 12,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF003977",
+			"numericValue": 0,
+			"rangeValue": {
+				"min": 400,
+				"max": 400
+			},
+			"type": "R",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 13,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF000351",
+			"numericValue": 3,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 14,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF005455",
+			"alphaNumericValue": {
+				"code": "EV008013",
+				"description": "50 Hz"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 15,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF000001",
+			"numericValue": 40.2,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 16,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF012425",
+			"numericValue": 22,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 17,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF012424",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 17,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF013710",
+			"numericValue": 0.4,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 18,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023092",
+			"alphaNumericValue": {
+				"code": "EV000334",
+				"description": "F"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 19,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF001642",
+			"numericValue": 1450,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 20,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020121",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 21,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF005668",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 21,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020120",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 22,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020023",
+			"numericValue": 140,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 22,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015266",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 23,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020077",
+			"numericValue": -20,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 23,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007178",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 24,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007179",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 25,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF012451",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 25,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016383",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 26,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015733",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 26,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016385",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 27,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016386",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 28,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016387",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 29,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015734",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 29,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023100",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 29,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016388",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 30,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015735",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 30,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023101",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 30,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016389",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 31,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007311",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 31,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016390",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 32,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015736",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 32,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF003626",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 33,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015737",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 33,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007314",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 34,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007307",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 34,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007312",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 35,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015738",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 35,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007521",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 36,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF015739",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 36,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF003055",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 37,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF003052",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 38,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF007525",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 39,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016391",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 40,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016392",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 41,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016393",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 42,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016394",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 43,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016395",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 44,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016396",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 45,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF016397",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 46,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023182",
+			"numericValue": 0,
+			"rangeValue": {
+				"min": -20,
+				"max": 140
+			},
+			"type": "R",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 47,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF002386",
+			"numericValue": 0,
+			"rangeValue": {
+				"min": -15,
+				"max": 40
+			},
+			"type": "R",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 48,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF025116",
+			"alphaNumericValue": {
+				"code": "EV000106",
+				"description": "Flens"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 49,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF025117",
+			"alphaNumericValue": {
+				"code": "EV020118",
+				"description": "DN 150"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 50,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF025503",
+			"numericValue": 150,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 51,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF026143",
+			"alphaNumericValue": {
+				"code": "EV020104",
+				"description": "PN 16"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 52,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF014906",
+			"alphaNumericValue": {
+				"code": "EV017299",
+				"description": "EN 1092-2"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 53,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF025977",
+			"alphaNumericValue": {
+				"code": "EV000106",
+				"description": "Flens"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 54,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF025118",
+			"alphaNumericValue": {
+				"code": "EV020117",
+				"description": "DN 125"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 55,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF025504",
+			"numericValue": 125,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 56,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF026233",
+			"alphaNumericValue": {
+				"code": "EV020104",
+				"description": "PN 16"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 57,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF014907",
+			"alphaNumericValue": {
+				"code": "EV017299",
+				"description": "EN 1092-2"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 58,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF001339",
+			"alphaNumericValue": {
+				"code": "EV000167",
+				"description": "Rond"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 59,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF005474",
+			"alphaNumericValue": {
+				"code": "EV006420",
+				"description": "IP55"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 60,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020246",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 61,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023094",
+			"numericValue": 280,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 62,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023095",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 63,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023099",
+			"numericValue": 140,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 64,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023096",
+			"numericValue": 1021,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 65,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF004663",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 66,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF014908",
+			"numericValue": 0,
+			"logicalValue": true,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 67,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF014979",
+			"alphaNumericValue": {
+				"code": "EV011462",
+				"description": "IE3"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 68,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023091",
+			"numericValue": 0,
+			"type": "L",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 10,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF001314",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 12,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF021858",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 14,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF020039",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 22,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF023102",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": false,
+			"isRegular": true,
+			"orderNumberRegular": 29,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF001422",
+			"alphaNumericValue": {
+				"code": "EV003671",
+				"description": "Elektrisch"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 1,
+			"portCode": 0
+		},
+		{
+			"selected": true,
+			"code": "EF010754",
+			"numericValue": 90,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 2,
+			"portCode": 0,
+			"dimensionalDrawingCode": "a"
+		},
+		{
+			"selected": true,
+			"code": "EF010724",
+			"numericValue": 349,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 13,
+			"portCode": 0,
+			"dimensionalDrawingCode": "DM"
+		},
+		{
+			"selected": true,
+			"code": "EF023094",
+			"numericValue": 280,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 20,
+			"portCode": 0,
+			"dimensionalDrawingCode": "H1"
+		},
+		{
+			"selected": true,
+			"code": "EF010740",
+			"numericValue": 560,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 21,
+			"portCode": 0,
+			"dimensionalDrawingCode": "HD"
+		},
+		{
+			"selected": true,
+			"code": "EF010756",
+			"numericValue": 125,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 26,
+			"portCode": 0,
+			"dimensionalDrawingCode": "Le1"
+		},
+		{
+			"selected": true,
+			"code": "EF010742",
+			"numericValue": 881,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 27,
+			"portCode": 0,
+			"dimensionalDrawingCode": "Le2"
+		},
+		{
+			"selected": true,
+			"code": "EF010751",
+			"numericValue": 230,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 28,
+			"portCode": 0,
+			"dimensionalDrawingCode": "Le4"
+		},
+		{
+			"selected": true,
+			"code": "EF010729",
+			"numericValue": 230,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 29,
+			"portCode": 0,
+			"dimensionalDrawingCode": "Le5"
+		},
+		{
+			"selected": true,
+			"code": "EF010757",
+			"numericValue": 423,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 30,
+			"portCode": 0,
+			"dimensionalDrawingCode": "Le6"
+		},
+		{
+			"selected": true,
+			"code": "EF010758",
+			"numericValue": 272,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 31,
+			"portCode": 0,
+			"dimensionalDrawingCode": "Le7"
+		},
+		{
+			"selected": true,
+			"code": "EF010733",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 32,
+			"portCode": 0,
+			"dimensionalDrawingCode": "Lp"
+		},
+		{
+			"selected": true,
+			"code": "EF010759",
+			"numericValue": 1,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 33,
+			"portCode": 0,
+			"dimensionalDrawingCode": "n"
+		},
+		{
+			"selected": true,
+			"code": "EF010524",
+			"numericValue": 22.5,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 3,
+			"portCode": 1,
+			"dimensionalDrawingCode": "a1"
+		},
+		{
+			"selected": true,
+			"code": "EF010525",
+			"numericValue": 26,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 5,
+			"portCode": 1,
+			"dimensionalDrawingCode": "b1"
+		},
+		{
+			"selected": true,
+			"code": "EF021531",
+			"numericValue": 285,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 7,
+			"portCode": 1,
+			"dimensionalDrawingCode": "D1"
+		},
+		{
+			"selected": true,
+			"code": "EF021780",
+			"numericValue": 23,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 9,
+			"portCode": 1,
+			"dimensionalDrawingCode": "d2-1"
+		},
+		{
+			"selected": true,
+			"code": "EF010527",
+			"numericValue": 212,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 11,
+			"portCode": 1,
+			"dimensionalDrawingCode": "d4-1"
+		},
+		{
+			"selected": true,
+			"code": "EF023193",
+			"alphaNumericValue": {
+				"code": "EV020118",
+				"description": "DN 150"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 14,
+			"portCode": 1,
+			"dimensionalDrawingCode": "DN1"
+		},
+		{
+			"selected": true,
+			"code": "EF020208",
+			"numericValue": 163.8,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 16,
+			"portCode": 1,
+			"dimensionalDrawingCode": "Do1"
+		},
+		{
+			"selected": true,
+			"code": "EF010528",
+			"numericValue": 2,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 18,
+			"portCode": 1,
+			"dimensionalDrawingCode": "f1"
+		},
+		{
+			"selected": true,
+			"code": "EF021643",
+			"numericValue": 240,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 22,
+			"portCode": 1,
+			"dimensionalDrawingCode": "k1"
+		},
+		{
+			"selected": true,
+			"code": "EF022519",
+			"numericValue": 140,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 24,
+			"portCode": 1,
+			"dimensionalDrawingCode": "L1"
+		},
+		{
+			"selected": true,
+			"code": "EF021779",
+			"numericValue": 8,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 34,
+			"portCode": 1,
+			"dimensionalDrawingCode": "n1"
+		},
+		{
+			"selected": true,
+			"code": "EF010521",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 36,
+			"portCode": 1,
+			"dimensionalDrawingCode": "Q1"
+		},
+		{
+			"selected": true,
+			"code": "EF006318",
+			"numericValue": 140,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 38,
+			"portCode": 1,
+			"dimensionalDrawingCode": "Z1"
+		},
+		{
+			"selected": true,
+			"code": "EF000321",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 40,
+			"portCode": 1
+		},
+		{
+			"selected": true,
+			"code": "EF010524",
+			"numericValue": 22.5,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 4,
+			"portCode": 2,
+			"dimensionalDrawingCode": "a2"
+		},
+		{
+			"selected": true,
+			"code": "EF010525",
+			"numericValue": 26,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 6,
+			"portCode": 2,
+			"dimensionalDrawingCode": "b2"
+		},
+		{
+			"selected": true,
+			"code": "EF021531",
+			"numericValue": 250,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 8,
+			"portCode": 2,
+			"dimensionalDrawingCode": "D2"
+		},
+		{
+			"selected": true,
+			"code": "EF021780",
+			"numericValue": 18,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 10,
+			"portCode": 2,
+			"dimensionalDrawingCode": "d2-2"
+		},
+		{
+			"selected": true,
+			"code": "EF010527",
+			"numericValue": 188,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 12,
+			"portCode": 2,
+			"dimensionalDrawingCode": "d4-2"
+		},
+		{
+			"selected": true,
+			"code": "EF020052",
+			"alphaNumericValue": {
+				"code": "EV020117",
+				"description": "DN 125"
+			},
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 15,
+			"portCode": 2,
+			"dimensionalDrawingCode": "DN2"
+		},
+		{
+			"selected": true,
+			"code": "EF020208",
+			"numericValue": 137.3,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 17,
+			"portCode": 2,
+			"dimensionalDrawingCode": "Do2"
+		},
+		{
+			"selected": true,
+			"code": "EF010528",
+			"numericValue": 2,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 19,
+			"portCode": 2,
+			"dimensionalDrawingCode": "f2"
+		},
+		{
+			"selected": true,
+			"code": "EF021643",
+			"numericValue": 210,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 23,
+			"portCode": 2,
+			"dimensionalDrawingCode": "k2"
+		},
+		{
+			"selected": true,
+			"code": "EF022519",
+			"numericValue": 355,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 25,
+			"portCode": 2,
+			"dimensionalDrawingCode": "L2"
+		},
+		{
+			"selected": true,
+			"code": "EF021779",
+			"numericValue": 8,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 35,
+			"portCode": 2,
+			"dimensionalDrawingCode": "n2"
+		},
+		{
+			"selected": true,
+			"code": "EF010521",
+			"numericValue": 0,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 37,
+			"portCode": 2,
+			"dimensionalDrawingCode": "Q2"
+		},
+		{
+			"selected": true,
+			"code": "EF006318",
+			"numericValue": 355,
+			"type": "N",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 39,
+			"portCode": 2,
+			"dimensionalDrawingCode": "Z2"
+		},
+		{
+			"selected": true,
+			"code": "EF000322",
+			"numericValue": 0,
+			"type": "A",
+			"isModelling": true,
+			"isRegular": true,
+			"orderNumberRegular": 41,
+			"portCode": 2
+		}
+	]
+}
