@@ -14,7 +14,7 @@ You can do the following using html and javascript:
 <iframe id="bbaObjectViewerFrame" src="https://viewer3d.2ba.nl/Viewer3D" frameBorder="0"></iframe>
 
 <script>
-	var json = {...}; // The json to send to the viewer
+    var json = {...}; // The json to send to the viewer
     var viewerReady = false; // A boolean value indicating wheter or not the viewer is ready.
 
     // Add an event listener to your window
@@ -22,7 +22,7 @@ You can do the following using html and javascript:
 
     // This function will be called when the viewer uses the window.postMessage api 
     // which will be called on the Iframe's window.opener or window.parent if the former was null.
-	function messageReceived(e) {
+    function messageReceived(e) {
         if (e.data.type == "Viewer3D:ObjectLoaded") {
 
             // This is called when the object has been loaded.
@@ -34,7 +34,7 @@ You can do the following using html and javascript:
             // Send a message to the viewer to start loading the object.
             loadObject(json);
         }
-	}
+    }
 
     function loadObject(jsonObject) {
         // Make sure the viewer is initalised.
