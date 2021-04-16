@@ -1,7 +1,7 @@
 ﻿ # 3D Viewer embedded demo
 
 The 3D viewer can be embedded in other (web) applications.
-In this demo we'll look into how to embed the 3D Viewer into native Windows WPF applications.
+In this demo we'll look into how to embed the 3D Viewer into a web application as well as a native Windows WPF application using WebView2.
 
 ## How it works
 The viewer is a simple application which can render 3D objects based on a json object which you'll need to supply to the viewer.
