@@ -1,4 +1,4 @@
-﻿# 3D Viewer embedded demo
+﻿ # 3D Viewer embedded demo
 
 The 3D viewer can be embedded in other (web) applications.
 In this demo we'll look into how to embed the 3D Viewer into native Windows WPF applications.
@@ -14,7 +14,8 @@ You can do the following using html and javascript:
 <iframe id="bbaObjectViewerFrame" src="https://viewer3d.2ba.nl/Viewer3D" frameBorder="0"></iframe>
 
 <script>
-	var json = {...};
+	var json = {...}; // The json to send to the viewer
+    var viewerReady = false; // A boolean value indicating wheter or not the viewer is ready.
 
     // Add an event listener to your window
 	window.addEventListener("message", messageReceived);
@@ -23,20 +24,37 @@ You can do the following using html and javascript:
     // which will be called on the Iframe's window.opener or window.parent if the former was null.
 	function messageReceived(e) {
         if (e.data.type == "Viewer3D:ObjectLoaded") {
+
             // This is called when the object has been loaded.
             console.log("Object loaded!");
         }
         else if (e.data.type == "Viewer3D:ViewerReady") {
-            // This is called when the viewer is ready to receive your json object.
-            var msg = {
-                type: "LoadViewer", // This type let's the viewer know that you want to load an object.
-                data: json
-            };
+            viewerReady = true;
 
-            // Post your content to the caller which in this case in the 3d viewer.
-            e.source.postMessage(msg, "https://viewer3d.2ba.nl");
+            // Send a message to the viewer to start loading the object.
+            loadObject(json);
         }
 	}
+
+    function loadObject(jsonObject) {
+        // Make sure the viewer is initalised.
+        if (!viewerReady) {
+            throw "The viewer is not initialised yet.";
+            return;
+        }
+
+        var msg = {
+            type: "LoadViewer", // This type let's the viewer know that you want to load an object.
+            data: jsonObject
+        };
+
+        // Get the iframe
+        var iframe = frames["bbaObjectViewerFrame"];
+
+        // Gets the window from the frame
+        var iframewindow = iframe.contentWindow ? iframe.contentWindow : iframe.contentDocument.defaultView;
+        iframewindow.postMessage(msg, "https://viewer3d.2ba.nl")
+    }
 </script>
 ```
 

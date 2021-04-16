@@ -1,0 +1,2872 @@
+{
+	"Id": null,
+	"ShortDescription": {
+		"Description": "MC000197_EC002485_LB_EE_Transformer_x_Type 1",
+		"Selected": false
+	},
+	"LongDescription": {
+		"Description": null,
+		"Selected": false
+	},
+	"Manufacturer": {
+		"Gln": "2220000101950",
+		"GlnName": "UOB Demo",
+		"Selected": false
+	},
+	"ProductCode": {
+		"Value": "UOB_EC002485_MC000197_766476",
+		"Selected": false
+	},
+	"Gtin": {
+		"Value": null,
+		"Selected": false
+	},
+	"Deeplink": {
+		"Selected": false,
+		"Value": null
+	},
+	"Brand": {
+		"Value": "UOB",
+		"Selected": false
+	},
+	"Model": {
+		"Value": "3-fase stuurtransformator (op frame",
+		"Selected": false
+	},
+	"Version": {
+		"Value": "Default",
+		"Selected": false
+	},
+	"WeightQuantity": null,
+	"StartDate": null,
+	"EtimClass": {
+		"Code": "EC002485",
+		"Description": "3-fase stuurtransformator",
+		"Selected": false,
+		"Synonyms": null,
+		"DimensionalDrawingUrl": null,
+		"IsModelling": false,
+		"ChangeCode": 0,
+		"Version": 0
+	},
+	"ModellingClass": {
+		"Code": "MC000197",
+		"Description": "3-fase stuurtransformator (op frame)",
+		"Selected": false,
+		"Synonyms": null,
+		"DimensionalDrawingUrl": null,
+		"IsModelling": false,
+		"ChangeCode": 0,
+		"Version": 0
+	},
+	"Features": [
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007235",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Uitgevoerd als veiligheidstrafo",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 1,
+			"LogicalValue": false,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 3,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000001",
+				"Description": "Aansluiting",
+				"OrderNumber": 10
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": {
+				"Code": null,
+				"Abbreviation": null,
+				"Description": null
+			},
+			"PossibleAlphaNumericalValues": [
+				{
+					"Code": "EV006404",
+					"Description": "IP00",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 1,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006606",
+					"Description": "IP10",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 2,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006607",
+					"Description": "IP12",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 3,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006405",
+					"Description": "IP20",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 4,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006406",
+					"Description": "IP21",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 5,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006608",
+					"Description": "IP22",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 6,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006407",
+					"Description": "IP23",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 7,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006408",
+					"Description": "IP24",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 8,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006409",
+					"Description": "IP2X",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 9,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006410",
+					"Description": "IP30",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 10,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006411",
+					"Description": "IP31",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 11,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006412",
+					"Description": "IP32",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 12,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006609",
+					"Description": "IP33",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 13,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006413",
+					"Description": "IP34",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 14,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006414",
+					"Description": "IP3X",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 15,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006415",
+					"Description": "IP40",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 16,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006416",
+					"Description": "IP41",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 17,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006417",
+					"Description": "IP42",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 18,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006610",
+					"Description": "IP43",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 19,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006418",
+					"Description": "IP44",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 20,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006611",
+					"Description": "IP45",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 21,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006612",
+					"Description": "IP50",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 22,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006613",
+					"Description": "IP52",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 23,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006614",
+					"Description": "IP53",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 24,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006419",
+					"Description": "IP54",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 25,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006420",
+					"Description": "IP55",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 26,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006615",
+					"Description": "IP56",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 27,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006616",
+					"Description": "IP57",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 28,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006617",
+					"Description": "IP58",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 29,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006618",
+					"Description": "IP64",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 30,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006421",
+					"Description": "IP65",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 31,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV008925",
+					"Description": "IP65/IP67",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 32,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006422",
+					"Description": "IP66",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 33,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006423",
+					"Description": "IP67",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 34,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV013221",
+					"Description": "IP67/IP69K",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 35,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV009289",
+					"Description": "IP67K",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 36,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006619",
+					"Description": "IP68",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 37,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006620",
+					"Description": "IPX0",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 38,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006621",
+					"Description": "IPX4",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 39,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV006622",
+					"Description": "IPX7",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 40,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000154",
+					"Description": "Overig",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 41,
+					"IsRegular": true,
+					"IsModelling": false
+				}
+			],
+			"Code": "EF005474",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Beschermingsgraad (IP)",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 33,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 0,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000001",
+				"Description": "Aansluiting",
+				"OrderNumber": 10
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007238",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Uitgevoerd als scheidingstrafo",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 2,
+			"LogicalValue": false,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 3,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000002",
+				"Description": "Functionele klasse kenmerken",
+				"OrderNumber": 20
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007005",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Uitgevoerd als spaartransformator",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 3,
+			"LogicalValue": false,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 3,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000002",
+				"Description": "Functionele klasse kenmerken",
+				"OrderNumber": 20
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": {
+				"Code": null,
+				"Abbreviation": null,
+				"Description": null
+			},
+			"PossibleAlphaNumericalValues": [
+				{
+					"Code": "EV008545",
+					"Description": "DY",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 1,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV008547",
+					"Description": "YY",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 2,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV008546",
+					"Description": "YD",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 3,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV008144",
+					"Description": "DD",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 4,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000154",
+					"Description": "Overig",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 5,
+					"IsRegular": true,
+					"IsModelling": false
+				}
+			],
+			"Code": "EF002960",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Type schakeling",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 24,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 0,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000002",
+				"Description": "Functionele klasse kenmerken",
+				"OrderNumber": 20
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007051",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Meetvermogen",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 25,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 0,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "VA",
+				"Code": "EU000022",
+				"Description": "Voltampère"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000002",
+				"Description": "Functionele klasse kenmerken",
+				"OrderNumber": 20
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": {
+				"Code": null,
+				"Abbreviation": null,
+				"Description": null
+			},
+			"PossibleAlphaNumericalValues": [
+				{
+					"Code": "EV009521",
+					"Description": "Y",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 1,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000896",
+					"Description": "A",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 2,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000647",
+					"Description": "E",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 3,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000074",
+					"Description": "B",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 4,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000334",
+					"Description": "F",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 5,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV009271",
+					"Description": "H",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 6,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000084",
+					"Description": "C",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 7,
+					"IsRegular": true,
+					"IsModelling": false
+				}
+			],
+			"Code": "EF007299",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Isolatiemateriaal-klasse conform IEC 85",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 26,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 0,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000002",
+				"Description": "Functionele klasse kenmerken",
+				"OrderNumber": 20
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007332",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Kortsluitvast",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 27,
+			"LogicalValue": false,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 3,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000002",
+				"Description": "Functionele klasse kenmerken",
+				"OrderNumber": 20
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": {
+				"Code": null,
+				"Abbreviation": null,
+				"Description": null
+			},
+			"PossibleAlphaNumericalValues": [
+				{
+					"Code": "EV000072",
+					"Description": "Aluminium",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 1,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000138",
+					"Description": "Koper",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 2,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000154",
+					"Description": "Overig",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 3,
+					"IsRegular": true,
+					"IsModelling": false
+				}
+			],
+			"Code": "EF001622",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Geleidermateriaal",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 29,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 0,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000004",
+				"Description": "Materiaal en kleur kenmerken",
+				"OrderNumber": 40
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF006125",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 1",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 4,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF006126",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 2",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 5,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF006127",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 3",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 6,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007410",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 4",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 7,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007411",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 5",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 8,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007412",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 6",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 9,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007413",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 7",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 10,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007414",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 8",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 11,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007415",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primair spanning 9",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 12,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007409",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Primaire spanning 10",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 13,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007472",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 1",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 14,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": null,
+				"Max": null
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007474",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 2",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 15,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007475",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 3",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 16,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007476",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 4",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 17,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007477",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 5",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 18,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007478",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 6",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 19,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007479",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 7",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 20,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007480",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 8",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 21,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007481",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 9",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 22,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007473",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Secundaire spanning 10",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 23,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": {
+				"Min": 0,
+				"Max": 0
+			},
+			"Selected": true,
+			"Type": 2,
+			"Unit": {
+				"Abbreviation": "V",
+				"Code": "EU570079",
+				"Description": "Volt"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF007452",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Relatieve kortsluitspanning Uk",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 28,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "%",
+				"Code": "EU570382",
+				"Description": "Percentage"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000005",
+				"Description": "Gebruiks klasse kenmerken",
+				"OrderNumber": 50
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF000049",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Diepte",
+			"DimensionalDrawingCode": "D1",
+			"IsModelling": true,
+			"IsRegular": true,
+			"OrderNumberModelling": 1,
+			"OrderNumberRegular": 32,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 600,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010953",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Diepte 2",
+			"DimensionalDrawingCode": "D2",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 2,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 120,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010988",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Diepte 3",
+			"DimensionalDrawingCode": "D3",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 3,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 200,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010991",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Diameter trafo",
+			"DimensionalDrawingCode": "D4",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 4,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 400,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF023069",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Diameter wiel",
+			"DimensionalDrawingCode": "D5",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 5,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 40,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF011241",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Diepte connector",
+			"DimensionalDrawingCode": "Dc",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 6,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 40,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF021572",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Diepte frame",
+			"DimensionalDrawingCode": "Df",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 7,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 225,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF000040",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Hoogte",
+			"DimensionalDrawingCode": "H",
+			"IsModelling": true,
+			"IsRegular": true,
+			"OrderNumberModelling": 8,
+			"OrderNumberRegular": 31,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 1200,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF021570",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Framehoogte",
+			"DimensionalDrawingCode": "Hf",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 9,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 50,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010992",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Hoogte lepel",
+			"DimensionalDrawingCode": "Hl",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 10,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 50,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010993",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Hoogte trafo",
+			"DimensionalDrawingCode": "Ht",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 11,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 1000,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF000008",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte",
+			"DimensionalDrawingCode": "W",
+			"IsModelling": true,
+			"IsRegular": true,
+			"OrderNumberModelling": 12,
+			"OrderNumberRegular": 30,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 1500,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF023087",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte 1",
+			"DimensionalDrawingCode": "W1",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 13,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 400,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF023088",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte 2",
+			"DimensionalDrawingCode": "W2",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 14,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 100,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010999",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte 3",
+			"DimensionalDrawingCode": "W3",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 15,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 390,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF011000",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte 4",
+			"DimensionalDrawingCode": "W4",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 16,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 100,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF011001",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte 5",
+			"DimensionalDrawingCode": "W5",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 17,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 500,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF011002",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte 6",
+			"DimensionalDrawingCode": "W6",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 18,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 600,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010981",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte connector",
+			"DimensionalDrawingCode": "Wc",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 19,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 39.147,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF010994",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Breedte lepel",
+			"DimensionalDrawingCode": "Wl",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 20,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 60,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": null,
+			"PossibleAlphaNumericalValues": null,
+			"Code": "EF000386",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Materiaaldikte",
+			"DimensionalDrawingCode": "s",
+			"IsModelling": true,
+			"IsRegular": false,
+			"OrderNumberModelling": 21,
+			"OrderNumberRegular": null,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": 5,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 1,
+			"Unit": {
+				"Abbreviation": "mm",
+				"Code": "EU570448",
+				"Description": "Millimeter"
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": {
+				"Code": "CA000007",
+				"Description": "Productmodel modelleer kenmerken",
+				"OrderNumber": 70
+			},
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		},
+		{
+			"AlphaNumericValue": {
+				"Code": null,
+				"Abbreviation": null,
+				"Description": null
+			},
+			"PossibleAlphaNumericalValues": [
+				{
+					"Code": "EV000599",
+					"Description": "1",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 1,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000600",
+					"Description": "2",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 2,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000069",
+					"Description": "3",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 3,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV014035",
+					"Description": "3R",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 4,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000070",
+					"Description": "4",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 5,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV014040",
+					"Description": "4X",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 6,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV007990",
+					"Description": "12",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 7,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV022254",
+					"Description": "13",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 8,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000154",
+					"Description": "Overig",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 9,
+					"IsRegular": true,
+					"IsModelling": false
+				},
+				{
+					"Code": "EV000494",
+					"Description": "Geen",
+					"IrrelevantFeaturesInPort": null,
+					"OrderNumberModelling": null,
+					"OrderNumberRegular": 10,
+					"IsRegular": true,
+					"IsModelling": false
+				}
+			],
+			"Code": "EF011959",
+			"CoordinateValue": {
+				"X": null,
+				"Y": null,
+				"Z": null
+			},
+			"Description": "Beschermingsgraad (NEMA)",
+			"DimensionalDrawingCode": null,
+			"IsModelling": false,
+			"IsRegular": true,
+			"OrderNumberModelling": null,
+			"OrderNumberRegular": 34,
+			"LogicalValue": null,
+			"MatrixValues": null,
+			"NumericValue": null,
+			"PortCode": 0,
+			"RangeValue": null,
+			"Selected": true,
+			"Type": 0,
+			"Unit": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"UnitVariableAxis": {
+				"Abbreviation": null,
+				"Code": null,
+				"Description": null
+			},
+			"Category": null,
+			"ChangeCodeModelling": 0,
+			"ChangeCodeRegular": 0,
+			"IsConnectorDependentFeatureExclusion": false
+		}
+	],
+	"Status": null
+}

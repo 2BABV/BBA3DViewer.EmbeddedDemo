@@ -1,0 +1,92 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<style>
+	#btncontainer > button {
+		width: 100%;
+		margin: 5px;
+	}
+</style>
+
+<div class="row">
+	<div class="col-lg-2" id="btncontainer">
+		<button class="btn btn-secondary" data-name="Stuurtransformator">Stuurtransformator</button>
+		<button class="btn btn-secondary" data-name="Blokpomp">Blokpomp</button>
+	</div>
+	<div class="col-lg-10 text-center">
+		<iframe id="bbaObjectViewerFrame" style="height:80vh; width: 100%" src="https://viewer3d.2ba.nl/Viewer3D" frameBorder="0"></iframe>
+	</div>
+</div>
+
+@section scripts{
+
+	<script>
+		var viewerReady = false;
+		// Add an event listener to your window
+		window.addEventListener("message", messageReceived);
+
+		// This function will be called when the viewer uses the window.postMessage api
+		// which will be called on the Iframe's window.opener or window.parent if the former was null.
+		function messageReceived(e) {
+			if (e.data.type == "Viewer3D:ObjectLoaded") {
+				setDisableButtons(false)
+
+				// This is called when the object has been loaded.
+				console.log("Object loaded!");
+			}
+			else if (e.data.type == "Viewer3D:ViewerReady") {
+				viewerReady = true;
+				setDisableButtons(false)
+				//// This is called when the viewer is ready to receive your json object.
+				//var msg = {
+				//    type: "LoadViewer", // This type let's the viewer know that you want to load an object.
+				//    data: json
+				//};
+
+				//// Post your content to the caller which in this case in the 3d viewer.
+				//e.source.postMessage(msg, "https://viewer3d.2ba.nl");
+
+				// Note that in our case we do not load an object right away. You may do this if you wish, but we decided to let the user click on a button instead.
+			}
+		}
+
+		$("#btncontainer > button").on("click", function (e) {
+			$("#btncontainer > button").addClass("btn-secondary").removeClass("btn-dark");
+			$(this).removeClass(".btn-secondary").addClass("btn-dark");
+			setDisableButtons(true);
+			requestObject($(this).data("name"));
+		})
+
+		function requestObject(name) {
+			name = name + ".json";
+			$.ajax({
+				url: "/ViewerObjects/" + name,
+				method: "GET",
+				success: function (res) {
+					console.log(res);
+					loadObject(res);
+				}
+			});
+		}
+
+		function loadObject(jsonObject) {
+			if (!viewerReady) {
+				throw "The viewer is not initialised yet.";
+				return;
+			}
+			var msg = {
+				type: "LoadViewer", // This type let's the viewer know that you want to load an object.
+				data: jsonObject
+			};
+
+			var iframe = frames["bbaObjectViewerFrame"];
+			var iframewindow = iframe.contentWindow ? iframe.contentWindow : iframe.contentDocument.defaultView;
+			iframewindow.postMessage(msg, "https://viewer3d.2ba.nl")
+		}
+
+		function setDisableButtons(val) {
+			$("#btncontainer > button").attr("disabled", val);
+		}
+	</script>
+}
