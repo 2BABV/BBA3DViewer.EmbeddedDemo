@@ -25,7 +25,7 @@ namespace BBA3DViewer.WPF {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://viewer3d.2ba.nl/Viewer3d")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://localhost:44302")]
         public string ViewerUrl {
             get {
                 return ((string)(this["ViewerUrl"]));

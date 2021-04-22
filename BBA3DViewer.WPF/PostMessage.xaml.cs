@@ -11,14 +11,29 @@ using System.Windows;
 namespace BBA3DViewer.WPF
 {
 	/// <summary>
-	/// Interaction logic for MainWindow.xaml
+	/// This view is an example of how to implement the 3D Viewer using the PostMessage browser api.
+	/// This is a bit tricky because we need to hook into the PostMessage api so we can receive data sent through this api.
+	/// Hooking into the PostMessage api is achieved by running the PostMessageCapturer.js (in the js folder) file before the page is loaded.
+	/// This script will override the default window.PostMessage(...) function.
+	/// Our implementation does the following:
+	/// 1. Call the original/base implementation
+	/// 2. If WebView2 is detected, post it to the browser too. This will trigger <see cref="Webbrowser_WebMessageReceived"/>.
+	/// The viewer uses the PostMessage api to send some information (e.g. ViewerReady will indicate that it is ready to receive a product object)
+	/// After the ViewerReady message we can respond with the PostMessage api. To do this we created a simple javascript script called MessageSender.js (in the js folder).
+	/// You have to inject this script in order to run it. Before injecting it you will need to replace 3 variables.
+	/// 1. __type__:			this is an argument the viewer will watch for. In our case it is LoadViewer (this indicates that you are sending a product object to render)
+	/// 2. __targetOrigin__:	this is an argument which is specifically for the PostMessage api. It makes sure you know to which origin you are sending the message to.
+	/// 3. __json__:			this is the product object as json. You have to replace replace this with your productobject (as json).
+	/// 
+	/// This method of calling the viewer is created to make it possible to interact with the viewer from an iframe or opened window.
+	/// As you can see, it is possible to implement it in a wpf app, however the <see cref="Traditional"/> implementation is easier to implement and understand.
 	/// </summary>
-	public partial class MainWindow : Window
+	public partial class PostMessage : Window
 	{
 		private Dictionary<string, string> _scripts = new Dictionary<string, string>();
 		private Dictionary<string, FileInfo> _viewerObjects = new Dictionary<string, FileInfo>();
 
-		public MainWindow()
+		public PostMessage()
 		{
 			InitializeComponent();
 		}
@@ -30,6 +45,7 @@ namespace BBA3DViewer.WPF
 
 			var jsDir = new DirectoryInfo(Path.Combine(dir.FullName, "js"));
 
+			// Load the javascript files in memory so we can access it very easily
 			foreach (var script in jsDir.EnumerateFiles("*.js"))
 			{
 				using (var sr = new StreamReader(script.OpenRead()))
@@ -39,6 +55,7 @@ namespace BBA3DViewer.WPF
 				}
 			}
 
+			// Load the json files in memory so we can access it very easily
 			var viewerObjectDir = new DirectoryInfo(Path.Combine(dir.FullName, "ViewerObjects"));
 			foreach (var file in viewerObjectDir.EnumerateFiles("*.json"))
 			{
@@ -47,13 +64,16 @@ namespace BBA3DViewer.WPF
 			}
 
 			await webbrowser.EnsureCoreWebView2Async(); // This ensures that CoreWebView2 is available. We override the window.PostMessage method so we can pass the messages on to the .NET application.
-			await webbrowser.CoreWebView2.AddScriptToExecuteOnDocumentCreatedAsync(_scripts["PostMessageCapturer.js"]);
+			await webbrowser.CoreWebView2.AddScriptToExecuteOnDocumentCreatedAsync(_scripts["PostMessageCapturer.js"]); // Make sure the window.postMessage api is using our implementation.
 
 			// This line opens the dev tool right away. useful for debugging.
 			// webbrowser.CoreWebView2.OpenDevToolsWindow();
 
 			// This event is called every time window.postMessage(...) is called on a website. The PostMessageCapturer makes sure this event is called.
 			webbrowser.WebMessageReceived += Webbrowser_WebMessageReceived;
+
+			// Navigate to the viewer
+			webbrowser.CoreWebView2.Navigate(Settings1.Default.ViewerUrl + "/Viewer3D");
 		}
 
 		/// <summary>

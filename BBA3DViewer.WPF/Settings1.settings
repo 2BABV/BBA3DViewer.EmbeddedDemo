@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ViewerUrl" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://viewer3d.2ba.nl/Viewer3d</Value>
+      <Value Profile="(Default)">https://localhost:44302</Value>
     </Setting>
   </Settings>
 </SettingsFile>

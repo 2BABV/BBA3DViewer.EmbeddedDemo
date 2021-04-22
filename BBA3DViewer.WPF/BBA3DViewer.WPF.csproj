@@ -48,4 +48,11 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Traditional.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
 </Project>
