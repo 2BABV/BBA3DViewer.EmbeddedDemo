@@ -16,7 +16,7 @@ In this demo we'll look into how to embed the 3D Viewer into a web application a
 The viewer is a simple application which can render 3D objects based on a json object which you'll need to supply to the viewer.
 You can achieve this by using the PostMessage api; this implementation is recommend for web-implementations.
 Note that we have also implemented a more traditional way of opening the viewer,
-wich we recommend for native applications. You can read more about this implementation here
+wich we recommend for native applications. You can read more about this implementation [here](#how-do-i-embed-the-viewer-in-my-windows-application)
 
 ## How do I embed the viewer in my own website?
 You can do the following using html and javascript:
